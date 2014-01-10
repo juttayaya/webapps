@@ -1,0 +1,9 @@
+serverinfo.jsp retrieves JEE server and http request information to aid in debugging.
+
+Add it anywhere in the web application and access it from a web browser to see the server info.
+
+To make it easy to deploy, I put everything into one JSP.
+
+I used static member classes so it will be easier to read and modify the code in one place instead of everywhere in the JSP.
+
+I restricted to use only the Java 1.4 API so it will work on older J2EE app servers
